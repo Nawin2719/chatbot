@@ -1,0 +1,101 @@
+conversation_id,timestamp,user_message,agent_response,category,sentiment,resolution_status
+2000,2023-06-02 00:32:00,Can I contact support at night?,Night support is available via chat only.,Service Hours,Positive,Escalated
+2001,2023-06-01 12:58:00,I forgot my username.,Use the recovery option to retrieve your username.,Login Issues,Neutral,Pending
+2002,2023-06-01 10:04:00,Error 404 appears often.,We're aware and working on a fix.,App Errors,Positive,Pending
+2003,2023-06-01 23:45:00,I forgot my username.,We'll check your login activity.,Login Issues,Negative,Pending
+2004,2023-06-01 10:10:00,Error 404 appears often.,Please reinstall the app and try again.,App Errors,Positive,Escalated
+2005,2023-06-01 09:15:00,I forgot my username.,We'll check your login activity.,Login Issues,Positive,Pending
+2006,2023-06-01 23:18:00,The app freezes randomly.,We're aware and working on a fix.,App Errors,Neutral,Resolved
+2007,2023-06-01 12:17:00,What features does this product have?,Let me send you the product details.,Product Info,Negative,Resolved
+2008,2023-06-01 13:30:00,The screen goes black after login.,Try updating to the latest version.,App Errors,Neutral,Escalated
+2009,2023-06-01 12:22:00,What features does this product have?,Let me send you the product details.,Product Info,Positive,Escalated
+2010,2023-06-01 13:21:00,Can I contact support at night?,We’re open 9am–6pm Mon–Sat.,Service Hours,Positive,Resolved
+2011,2023-06-01 11:28:00,I want a refund for my last purchase.,Refunds take 3-5 business days.,Refund Requests,Negative,Escalated
+2012,2023-06-01 19:00:00,Is it available in blue?,Let me send you the product details.,Product Info,Negative,Escalated
+2013,2023-06-02 05:05:00,The app freezes randomly.,Try updating to the latest version.,App Errors,Negative,Pending
+2014,2023-06-01 10:46:00,What are your customer care hours?,We’re open 9am–6pm Mon–Sat.,Service Hours,Negative,Escalated
+2015,2023-06-01 19:01:00,Why was I not refunded?,"Sorry for the error, a refund will be issued.",Refund Requests,Positive,Resolved
+2016,2023-06-01 19:29:00,I'm locked out of my account.,Use the recovery option to retrieve your username.,Login Issues,Neutral,Resolved
+2017,2023-06-02 08:03:00,Can I contact support at night?,"Yes, support is available on weekends.",Service Hours,Negative,Escalated
+2018,2023-06-01 12:10:00,Is it available in blue?,Let me send you the product details.,Product Info,Neutral,Resolved
+2019,2023-06-01 20:09:00,I want a refund for my last purchase.,Refunds take 3-5 business days.,Refund Requests,Neutral,Resolved
+2020,2023-06-01 20:06:00,I forgot my username.,We'll check your login activity.,Login Issues,Positive,Escalated
+2021,2023-06-02 00:31:00,Can I contact support at night?,"Yes, support is available on weekends.",Service Hours,Neutral,Escalated
+2022,2023-06-01 22:40:00,I was charged incorrectly.,"Sorry for the error, a refund will be issued.",Refund Requests,Neutral,Pending
+2023,2023-06-01 11:13:00,My delivery is late.,Let me escalate this to logistics.,Delivery Delays,Neutral,Resolved
+2024,2023-06-01 18:30:00,I forgot my username.,We'll check your login activity.,Login Issues,Negative,Pending
+2025,2023-06-01 22:01:00,My delivery is late.,Let me escalate this to logistics.,Delivery Delays,Negative,Pending
+2026,2023-06-02 08:45:00,Is it available in blue?,"Yes, it comes in multiple colors.",Product Info,Positive,Pending
+2027,2023-06-01 15:56:00,Login keeps failing.,We'll check your login activity.,Login Issues,Positive,Pending
+2028,2023-06-01 17:38:00,Why was I not refunded?,"Sorry for the error, a refund will be issued.",Refund Requests,Negative,Escalated
+2029,2023-06-02 01:13:00,Is it available in blue?,Let me send you the product details.,Product Info,Positive,Escalated
+2030,2023-06-01 20:41:00,I'm locked out of my account.,Please reset your password using the link provided.,Login Issues,Neutral,Escalated
+2031,2023-06-01 13:49:00,I want a refund for my last purchase.,We are processing your refund.,Refund Requests,Negative,Resolved
+2032,2023-06-02 03:07:00,Login keeps failing.,Please reset your password using the link provided.,Login Issues,Positive,Resolved
+2033,2023-06-01 17:51:00,Is it available in blue?,It includes a 1-year warranty.,Product Info,Neutral,Resolved
+2034,2023-06-01 16:44:00,I was charged incorrectly.,Refunds take 3-5 business days.,Refund Requests,Negative,Resolved
+2035,2023-06-01 16:11:00,What's the warranty period?,Let me send you the product details.,Product Info,Positive,Resolved
+2036,2023-06-01 15:50:00,I want a refund for my last purchase.,Refunds take 3-5 business days.,Refund Requests,Neutral,Resolved
+2037,2023-06-01 15:43:00,Can I contact support at night?,Night support is available via chat only.,Service Hours,Negative,Resolved
+2038,2023-06-01 14:45:00,I was charged incorrectly.,Refunds take 3-5 business days.,Refund Requests,Positive,Resolved
+2039,2023-06-01 20:12:00,Are you open on weekends?,"Yes, support is available on weekends.",Service Hours,Negative,Escalated
+2040,2023-06-01 14:12:00,I'm locked out of my account.,We'll check your login activity.,Login Issues,Negative,Pending
+2041,2023-06-01 11:37:00,I was charged incorrectly.,Refunds take 3-5 business days.,Refund Requests,Neutral,Escalated
+2042,2023-06-01 23:52:00,Are you open on weekends?,Night support is available via chat only.,Service Hours,Negative,Pending
+2043,2023-06-02 04:56:00,What features does this product have?,It includes a 1-year warranty.,Product Info,Positive,Pending
+2044,2023-06-01 22:33:00,The screen goes black after login.,Please reinstall the app and try again.,App Errors,Negative,Pending
+2045,2023-06-01 11:20:00,I was charged incorrectly.,We are processing your refund.,Refund Requests,Neutral,Resolved
+2046,2023-06-02 04:49:00,My delivery is late.,Let me escalate this to logistics.,Delivery Delays,Positive,Pending
+2047,2023-06-01 11:04:00,My delivery is late.,Let me escalate this to logistics.,Delivery Delays,Neutral,Pending
+2048,2023-06-02 08:06:00,I forgot my username.,Please reset your password using the link provided.,Login Issues,Positive,Escalated
+2049,2023-06-01 17:20:00,The app freezes randomly.,Try updating to the latest version.,App Errors,Neutral,Escalated
+2050,2023-06-02 01:24:00,I'm locked out of my account.,Use the recovery option to retrieve your username.,Login Issues,Negative,Escalated
+2051,2023-06-01 09:15:00,My delivery is late.,Please allow 2 more business days.,Delivery Delays,Neutral,Resolved
+2052,2023-06-01 10:32:00,Is it available in blue?,"Yes, it comes in multiple colors.",Product Info,Positive,Resolved
+2053,2023-06-01 22:34:00,Are you open on weekends?,"Yes, support is available on weekends.",Service Hours,Negative,Escalated
+2054,2023-06-02 04:14:00,The screen goes black after login.,We're aware and working on a fix.,App Errors,Negative,Escalated
+2055,2023-06-01 13:28:00,Are you open on weekends?,Night support is available via chat only.,Service Hours,Neutral,Escalated
+2056,2023-06-01 20:45:00,I'm locked out of my account.,Use the recovery option to retrieve your username.,Login Issues,Neutral,Escalated
+2057,2023-06-02 07:34:00,What's the warranty period?,Let me send you the product details.,Product Info,Negative,Resolved
+2058,2023-06-01 12:14:00,Are you open on weekends?,"Yes, support is available on weekends.",Service Hours,Negative,Resolved
+2059,2023-06-01 22:27:00,I'm locked out of my account.,Please reset your password using the link provided.,Login Issues,Positive,Escalated
+2060,2023-06-02 06:41:00,Still waiting for my package.,We apologize. Your package will arrive soon.,Delivery Delays,Neutral,Escalated
+2061,2023-06-01 09:01:00,I forgot my username.,Please reset your password using the link provided.,Login Issues,Positive,Escalated
+2062,2023-06-01 18:42:00,What features does this product have?,It includes a 1-year warranty.,Product Info,Negative,Resolved
+2063,2023-06-01 16:09:00,What features does this product have?,Let me send you the product details.,Product Info,Negative,Pending
+2064,2023-06-01 11:55:00,I was charged incorrectly.,Refunds take 3-5 business days.,Refund Requests,Positive,Resolved
+2065,2023-06-01 10:58:00,Tracking shows no update.,We apologize. Your package will arrive soon.,Delivery Delays,Negative,Pending
+2066,2023-06-01 21:17:00,I forgot my username.,Please reset your password using the link provided.,Login Issues,Positive,Resolved
+2067,2023-06-01 09:07:00,The screen goes black after login.,We're aware and working on a fix.,App Errors,Neutral,Pending
+2068,2023-06-02 05:18:00,I was charged incorrectly.,"Sorry for the error, a refund will be issued.",Refund Requests,Neutral,Escalated
+2069,2023-06-01 14:50:00,I'm locked out of my account.,Use the recovery option to retrieve your username.,Login Issues,Positive,Escalated
+2070,2023-06-02 03:26:00,What are your customer care hours?,We’re open 9am–6pm Mon–Sat.,Service Hours,Neutral,Pending
+2071,2023-06-01 16:45:00,I forgot my username.,We'll check your login activity.,Login Issues,Neutral,Resolved
+2072,2023-06-02 06:27:00,The app freezes randomly.,Try updating to the latest version.,App Errors,Neutral,Resolved
+2073,2023-06-02 00:38:00,Still waiting for my package.,We apologize. Your package will arrive soon.,Delivery Delays,Neutral,Escalated
+2074,2023-06-02 07:34:00,Why was I not refunded?,Refunds take 3-5 business days.,Refund Requests,Neutral,Pending
+2075,2023-06-01 11:29:00,Are you open on weekends?,Night support is available via chat only.,Service Hours,Positive,Resolved
+2076,2023-06-01 10:14:00,Why was I not refunded?,"Sorry for the error, a refund will be issued.",Refund Requests,Negative,Pending
+2077,2023-06-01 11:56:00,The app freezes randomly.,We're aware and working on a fix.,App Errors,Positive,Resolved
+2078,2023-06-01 17:58:00,My delivery is late.,Let me escalate this to logistics.,Delivery Delays,Neutral,Escalated
+2079,2023-06-01 17:14:00,Are you open on weekends?,"Yes, support is available on weekends.",Service Hours,Positive,Pending
+2080,2023-06-01 17:52:00,The screen goes black after login.,We're aware and working on a fix.,App Errors,Positive,Escalated
+2081,2023-06-01 18:30:00,Can I contact support at night?,"Yes, support is available on weekends.",Service Hours,Negative,Pending
+2082,2023-06-01 14:16:00,What are your customer care hours?,Night support is available via chat only.,Service Hours,Neutral,Resolved
+2083,2023-06-01 22:01:00,Are you open on weekends?,We’re open 9am–6pm Mon–Sat.,Service Hours,Negative,Resolved
+2084,2023-06-01 12:34:00,Are you open on weekends?,"Yes, support is available on weekends.",Service Hours,Positive,Resolved
+2085,2023-06-01 11:16:00,Error 404 appears often.,Try updating to the latest version.,App Errors,Positive,Pending
+2086,2023-06-02 03:56:00,The screen goes black after login.,We're aware and working on a fix.,App Errors,Positive,Escalated
+2087,2023-06-01 12:56:00,I forgot my username.,We'll check your login activity.,Login Issues,Positive,Pending
+2088,2023-06-01 16:26:00,Can I contact support at night?,Night support is available via chat only.,Service Hours,Positive,Resolved
+2089,2023-06-01 12:43:00,I forgot my username.,We'll check your login activity.,Login Issues,Positive,Escalated
+2090,2023-06-01 14:21:00,The app freezes randomly.,Please reinstall the app and try again.,App Errors,Negative,Escalated
+2091,2023-06-01 10:35:00,Error 404 appears often.,We're aware and working on a fix.,App Errors,Negative,Resolved
+2092,2023-06-02 04:35:00,The app freezes randomly.,Try updating to the latest version.,App Errors,Negative,Resolved
+2093,2023-06-02 03:19:00,I want a refund for my last purchase.,Refunds take 3-5 business days.,Refund Requests,Negative,Escalated
+2094,2023-06-02 00:48:00,I want a refund for my last purchase.,Refunds take 3-5 business days.,Refund Requests,Negative,Resolved
+2095,2023-06-02 06:49:00,I was charged incorrectly.,"Sorry for the error, a refund will be issued.",Refund Requests,Positive,Escalated
+2096,2023-06-02 07:43:00,Error 404 appears often.,We're aware and working on a fix.,App Errors,Positive,Escalated
+2097,2023-06-01 23:16:00,Can I contact support at night?,We’re open 9am–6pm Mon–Sat.,Service Hours,Neutral,Escalated
+2098,2023-06-01 14:49:00,Error 404 appears often.,We're aware and working on a fix.,App Errors,Positive,Escalated
+2099,2023-06-01 13:44:00,Still waiting for my package.,Let me escalate this to logistics.,Delivery Delays,Neutral,Pending
