@@ -1,0 +1,47 @@
+# chatbot_app.py
+%%writefile NMSN.py
+import streamlit as st
+import pandas as pd
+import pickle
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+
+# Load and prepare data
+@st.cache_data
+def load_data():
+    df = pd.read_csv("Dataset.csv")
+    df.dropna(subset=["user_message", "category"], inplace=True)
+    return df
+
+df = load_data()
+
+# Text Vectorization
+vectorizer = TfidfVectorizer(stop_words="english")
+X = vectorizer.fit_transform(df["user_message"])
+y = df["category"]
+
+# Model Training
+model = LogisticRegression()
+model.fit(X, y)
+
+# Save model and vectorizer for reuse (optional)
+with open("chatbot_model.pkl", "wb") as f:
+    pickle.dump(model, f)
+with open("vectorizer.pkl", "wb") as f:
+    pickle.dump(vectorizer, f)
+
+# UI - Streamlit
+st.title("🤖 Customer Support Chatbot")
+
+user_input = st.text_input("Enter your query:")
+
+if user_input:
+    input_vec = vectorizer.transform([user_input])
+    predicted_category = model.predict(input_vec)[0]
+
+    # Return a predefined response based on prediction
+    response_row = df[df["category"] == predicted_category].sample(1)
+    agent_reply = response_row["agent_response"].values[0]
+
+    st.write(f"**Predicted Category:** {predicted_category}")
+    st.write(f"**Bot Response:** {agent_reply}")
